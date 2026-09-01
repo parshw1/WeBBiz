@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:e_commerce/assets/widgets/add_to_cart.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -40,6 +41,8 @@ class Home extends StatelessWidget {
                           subtitle: Text('Eyeconic Kajal - Black, 0.35 g'),
                           trailing: Text('Rs. 180'),
                         ),
+                        AddToCart(),
+                        SizedBox(height: 10),
                       ],
                     ),
                   ),
@@ -55,6 +58,25 @@ class Home extends StatelessWidget {
                           subtitle: Text("Men's Trendy T-shirt"),
                           trailing: Text('Rs. 1200'),
                         ),
+                        AddToCart(),
+                        SizedBox(height: 10),
+                      ],
+                    ),
+                  ),
+                ),
+                SizedBox(
+                  width: MediaQuery.of(context).size.width * 0.45,
+                  child: Card(
+                    child: Column(
+                      children: [
+                        Image.asset('lib/assets/images/product3.webp'),
+                        ListTile(
+                          title: Text('Puma'),
+                          subtitle: Text('Black Tote Bag'),
+                          trailing: Text('Rs. 499'),
+                        ),
+                        AddToCart(),
+                        SizedBox(height: 10),
                       ],
                     ),
                   ),
