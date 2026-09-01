@@ -13,8 +13,8 @@ class OnboardingPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              
-              Image.asset('lib/assets/images/logo.webp', width: MediaQuery.of(context).size.width * 0.4),
+              SizedBox(height: 40),
+              Image.asset('lib/assets/images/logo.webp', width: MediaQuery.of(context).size.width * 0.3),
               SizedBox(height: 20),
               Text(
                 "Welcome to WeBBiz",
@@ -31,8 +31,8 @@ class OnboardingPage extends StatelessWidget {
               SizedBox(height: 30),
               SvgPicture.asset(
                 "lib/assets/images/onboarding_image.svg",
-                width: MediaQuery.of(context).size.width * 0.4,
-                height: MediaQuery.of(context).size.height * 0.4,
+                width: MediaQuery.of(context).size.width * 0.3,
+                height: MediaQuery.of(context).size.height * 0.3,
               ),
               
             ],

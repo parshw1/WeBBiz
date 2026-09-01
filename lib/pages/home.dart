@@ -14,7 +14,6 @@ class Home extends StatelessWidget {
               height: MediaQuery.of(context).size.height * 0.9,
               child: Image.asset(
                 'lib/assets/images/banner.png',
-                fit: BoxFit.cover,
               ),
             ),
             SizedBox(height: 20),
