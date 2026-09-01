@@ -1,17 +1,89 @@
-# e_commerce
+# 🛍️ Flutter E-Commerce App
 
-A new Flutter project.
+A E-Commerce mobile application built using **Flutter and Dart**, featuring product browsing, cart management, checkout, and profile navigation.
 
-## Getting Started
+## 📱 Download APK
 
-This project is a starting point for a Flutter application.
+You can download and install the latest Android APK from the release below:
 
-A few resources to get you started if this is your first Flutter project:
+### 👉 [Download APK](https://github.com/parshw1/WeBBiz/releases/tag/file)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## ✨ Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* 🏠 Home page
+* 🛒 Add and view cart items
+* 💳 Checkout with order success confirmation
+* 👤 Profile page
+* 🧭 Easy navigation
+* 🎨 Clean and simple design
+
+## 🛠️ Tech Stack
+
+* Flutter
+* Dart
+* Material Design
+* Android
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone YOUR_REPOSITORY_LINK
+```
+
+### 2. Navigate to the project
+
+```bash
+cd your-project-name
+```
+
+### 3. Install dependencies
+
+```bash
+flutter pub get
+```
+
+### 4. Run the app
+
+```bash
+flutter run
+```
+
+## 📦 Build APK
+
+To generate a release APK yourself:
+
+```bash
+flutter build apk --release
+```
+
+The generated APK can be found at:
+
+```text
+build/app/outputs/flutter-apk/app-release.apk
+```
+
+## 📸 Screenshots
+
+*Add screenshots of the application here.*
+
+## 🔮 Future Improvements
+
+* Product search and filtering
+* Product categories
+* User authentication
+* Payment integration
+* Backend/API integration
+* Order history
+
+## 👨‍💻 Developer
+
+**Paras Jain**
+
+B.Tech Information Technology
+Flutter Developer
+
+---
+
+⭐ If you like this project, consider giving the repository a star!
