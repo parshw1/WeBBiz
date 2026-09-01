@@ -1,14 +1,23 @@
 import 'package:flutter/material.dart';
 
-class AddToCart extends StatelessWidget{
+class AddToCart extends StatefulWidget{
   const AddToCart({super.key});
+
+  @override
+  State<AddToCart> createState() => _AddToCartState();
+}
+
+class _AddToCartState extends State<AddToCart> {
+  var button = Text('Add to Cart');
 
   @override
   Widget build(BuildContext context) {
     var button = Text('Add to Cart');
     return ElevatedButton(
       onPressed: () {
-        button = Text("Added!");
+        setState(() {
+          button = Text("Added!");
+        });
       },
       child: button,
     );
