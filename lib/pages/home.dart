@@ -11,7 +11,7 @@ class Home extends StatelessWidget {
           children: [
             Container(
               width: MediaQuery.of(context).size.width,
-              height: MediaQuery.of(context).size.height * 0.9,
+              height: MediaQuery.of(context).size.height * 0.3,
               child: Image.asset(
                 'lib/assets/images/banner.png',
               ),
